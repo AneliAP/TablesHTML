@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <Table>Crypto currencies</Table>
+    </title>
+    <style>
+        section {
+            margin: 5px;
+        }
+
+        .Crypto table {
+            border-collapse: collapse;
+            border: 2px solid black;
+            border-block: solid black;
+            width: 100%;
+            text-align: left;
+            background-color: rgb(243, 230, 230);
+        }
+        .Currencies td, .Currencies th {
+            border:2px solid black;
+            border-collapse: collapse;
+        }
+        .Currencies tr:hover{
+            background-color: rgb(168, 172, 172);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="Crypto">
+        <section class="Currencies">
+        <table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>Name</th>
+                    <th>Prize</th>
+                    <th>24H change</th>
+                    <th>24H volume</th>
+                    <th>Market cap</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="Images/Bitcoin.png" width="20px"></td>
+                    <td>Bitcoin</td>
+                    <td>$38710.09</td>
+                    <td>-1.17%</td>
+                    <td>$26.33B</td>
+                    <td>$733.53B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Ethereum.png" width="20px"></td>
+                    <td>Ethereum</td>
+                    <td>$2853.36</td>
+                    <td>-1.25%</td>
+                    <td>$15.7B</td>
+                    <td>$340.85B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Tether.png" width="20px"></td>
+                    <td>Tether</td>
+                    <td>$1.01</td>
+                    <td>+0.01%</td>
+                    <td>$66.55B</td>
+                    <td>$83.17B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/BNB.png" width="20px"></td>
+                    <td>BNB</td>
+                    <td>$385.30</td>
+                    <td>-2.97%</td>
+                    <td>$1.6B</td>
+                    <td>$62.93B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/USD Coin.png" width="20px"></td>
+                    <td>USD Coin</td>
+                    <td>$1.00</td>
+                    <td>-0.02%</td>
+                    <td>$4.04B</td>
+                    <td>$49.25B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Solana.png" width="20px"></td>
+                    <td>Solana</td>
+                    <td>$88.90</td>
+                    <td>-6.13%</td>
+                    <td>$1.7B</td>
+                    <td>$29.53B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/XRP.png" width="20px"></td>
+                    <td>XRP</td>
+                    <td>$0.5941</td>
+                    <td>-5.00%</td>
+                    <td>$1.95B</td>
+                    <td>$28.39B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Terra.png" width="20px"></td>
+                    <td>Terra</td>
+                    <td>$80.15</td>
+                    <td>-5.5.57%</td>
+                    <td>$2.13B</td>
+                    <td>$27.49B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Cardano.png" width="20px"></td>
+                    <td>Cardano</td>
+                    <td>$0.7803</td>
+                    <td>-4.28%</td>
+                    <td>$1.08B</td>
+                    <td>$26.1B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/TerraUSD.png" width="20px"></td>
+                    <td>TerraUSD</td>
+                    <td>$0.9999</td>
+                    <td>-0.01%</td>
+                    <td>$629.1M</td>
+                    <td>$18.52B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Binance USD.png" width="20px"></td>
+                    <td>Binance USD</td>
+                    <td>$0.9999</td>
+                    <td>-0.01%</td>
+                    <td>$4.51B</td>
+                    <td>$17.67B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Dogecoin.png" width="20px"></td>
+                    <td>Dogecoin</td>
+                    <td>$0.1321</td>
+                    <td>-3.26%</td>
+                    <td>$1.25B</td>
+                    <td>$17.37B</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/Avalanche.png" width="20px"></td>
+                    <td>Avalanche</td>
+                    <td>$58.70</td>
+                    <td>-7.41%</td>
+                    <td>$863.22M</td>
+                    <td>$15.71B</td>
+                </tr>
+            </section>
+        </section>
+    </tbody>
+    </table>
+</body>
+
+</html>
